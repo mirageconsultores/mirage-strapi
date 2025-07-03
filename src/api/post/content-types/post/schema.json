@@ -18,6 +18,9 @@
       "type": "uid",
       "targetField": "titulo"
     },
+    "bajada": {
+      "type": "text"
+    },
     "keywords": {
       "type": "text"
     },
@@ -26,9 +29,6 @@
     },
     "cuerpo": {
       "type": "blocks"
-    },
-    "bajada": {
-      "type": "text"
     },
     "previsualizacion": {
       "type": "media",
