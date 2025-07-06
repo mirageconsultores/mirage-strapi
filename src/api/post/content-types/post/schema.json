@@ -50,11 +50,10 @@
         "audios"
       ]
     },
-    "autores": {
+    "autor": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::autor.autor",
-      "mappedBy": "post"
+      "relation": "oneToOne",
+      "target": "api::autor.autor"
     }
   }
 }

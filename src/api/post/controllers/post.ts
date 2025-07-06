@@ -12,7 +12,7 @@ export default factories.createCoreController('api::post.post', ({ strapi }) => 
       populate: {
         imagen: true,
         previsualizacion: true,
-        autores: true,
+        autor: true,
       },
     };
 
@@ -26,7 +26,7 @@ export default factories.createCoreController('api::post.post', ({ strapi }) => 
       populate: {
         imagen: true,
         previsualizacion: true,
-        autores: true,
+        autor: true,
       },
     };
 
