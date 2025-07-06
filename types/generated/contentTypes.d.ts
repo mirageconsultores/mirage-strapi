@@ -411,7 +411,7 @@ export interface ApiPostPost extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    autors: Schema.Attribute.Relation<'oneToMany', 'api::autor.autor'>;
+    autores: Schema.Attribute.Relation<'oneToMany', 'api::autor.autor'>;
     bajada: Schema.Attribute.Text;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

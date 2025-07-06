@@ -50,7 +50,7 @@
         "audios"
       ]
     },
-    "autors": {
+    "autores": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::autor.autor",

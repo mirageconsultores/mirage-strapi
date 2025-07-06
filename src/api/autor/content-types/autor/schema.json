@@ -28,7 +28,7 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::post.post",
-      "inversedBy": "autors"
+      "inversedBy": "autores"
     }
   }
 }
