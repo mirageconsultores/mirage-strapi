@@ -49,6 +49,12 @@
         "videos",
         "audios"
       ]
+    },
+    "autors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::autor.autor",
+      "mappedBy": "post"
     }
   }
 }
